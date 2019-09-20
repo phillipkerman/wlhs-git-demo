@@ -3,6 +3,7 @@ var myCol = null
 constructor(row,col){
  myRow = row
  myCol = col
+//use blue square somehow
 }
 
 onClick(){
