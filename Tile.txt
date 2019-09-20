@@ -1,0 +1,11 @@
+var myRow = null
+var myCol = null
+constructor(row,col){
+ myRow = row
+ myCol = col
+}
+
+onClick(){
+  currentGameInfo.tiles[col][row]
+  MainGame.switchTurn()
+}
