@@ -3,7 +3,8 @@ var myCol = null
 constructor(row,col){
  myRow = row
  myCol = col
-}
+ //make tile blue....
+}	
 
 onClick(){
   currentGameInfo.tiles[col][row]
