@@ -1,4 +1,4 @@
-var gameInfo = {turn:"player1",
+var gameInfo = {turn:"player2",
 		tiles: [ [-,-,-],
 			 [-,-,-],
 			 [-,-,-]
