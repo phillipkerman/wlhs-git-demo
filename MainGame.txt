@@ -1,7 +1,8 @@
 var gameInfo = {turn:"player1",
 		tiles: [ [-,-,-],
 			 [-,-,-],
-			 [-,-,-]] 
+			 [-,-,-]
+                       ] 
 		}
 
 var currentGameInfo = null
@@ -9,8 +10,8 @@ var currentGameInfo = null
 startGame(){
   currentGameInfo = gameInfo
   //draw board
-  //make 9 instances of Tile
-  // new Tile(0,0), new Tile(1,0) etc.
+  //make 9 instances of Tile:
+  //new Tile(0,0), new Tile(1,0) etc.
 }
 
 switchTurn(){
